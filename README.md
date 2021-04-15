@@ -1,5 +1,11 @@
 # Calculadora de antecipação de recebíveis
 
+## Requisitos
+
+Ter instalado `python3`.
+
+https://www.python.org/downloads/
+
 ## Instalação
 
 ```
