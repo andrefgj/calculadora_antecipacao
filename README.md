@@ -2,9 +2,7 @@
 
 ## Requisitos
 
-Ter instalado `python3`.
-
-https://www.python.org/downloads/
+- `python3`: https://www.python.org/downloads/
 
 ## Instalação
 
