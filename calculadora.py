@@ -41,7 +41,7 @@ valor_total_antecipado = 0
 for x in range(numero_de_parcelas):
     
     valor_deduzido = valor_parcela_com_taxa_mdr - (valor_parcela_com_taxa_mdr / 100 * (taxa_antecipacao * (x + 1)))
-    t.add_row([x+1, 30 * (x + 1), round(valor_bruto_parcela, 2), taxa_de_mdr, "%.2f" % round((taxa_antecipacao * (x + 1)),2), "%.2f" % round(valor_deduzido, 2)])
+    t.add_row([x+1, 30 * (x + 1), "%.2f" % round(valor_bruto_parcela, 2), "%.2f" % round((taxa_de_mdr), 2) + " %", "%.2f" % round((taxa_antecipacao * (x + 1)),2) + " %", "%.2f" % round(valor_deduzido, 2)])
     valor_total_antecipado = valor_total_antecipado + valor_deduzido
 
 print("\n")
