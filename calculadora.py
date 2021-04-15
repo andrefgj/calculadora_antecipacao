@@ -33,13 +33,6 @@ if (taxa_de_mdr) is None:
 if (taxa_antecipacao) is None:
     taxa_antecipacao = float(input('Insira a taxa antecipação: '))
 
-# valor_parcela = valor_da_venda / numero_de_parcelas
-
-# for x in range(numero_de_parcelas):
-    
-#     valor_deduzido = valor_parcela - (valor_parcela / 100 * taxa_de_mdr) - (valor_parcela / 100 * taxa_antecipacao)
-#     t.add_row([x+1, round(valor_parcela, 2), taxa_de_mdr, taxa_antecipacao, round(valor_deduzido, 2)])
-
 valor_parcela_com_taxa_mdr = (valor_da_venda - (valor_da_venda / 100  * taxa_de_mdr)) / numero_de_parcelas
 valor_bruto_parcela = valor_da_venda / numero_de_parcelas
 
