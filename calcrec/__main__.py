@@ -46,13 +46,13 @@ def main():
         valor_total_antecipado = valor_total_antecipado + valor_deduzido
 
     print(f"""
-    Para antecipação de R$ {'%.2f' % round(valor_da_venda)} em {numero_de_parcelas} vezes:
+Para antecipação de R$ {'%.2f' % round(valor_da_venda)} em {numero_de_parcelas} vezes:
 
-    {t}
+{t}
 
-    Valor total antecipado para o cenário é: R$ {'%.2f' % round(valor_total_antecipado, 2)}
+Valor total antecipado para o cenário é: R$ {'%.2f' % round(valor_total_antecipado, 2)}
 
-    """)
+""")
 
 
 if __name__ == "__main__":
