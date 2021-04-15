@@ -4,7 +4,7 @@
 
 ```
 virtualenv -p python3 venv
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Uso
