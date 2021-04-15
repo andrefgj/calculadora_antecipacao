@@ -1,13 +1,13 @@
 # Calculadora de antecipação de recebíveis
 
-# Instalação
+## Instalação
 
 ```
 virtualenv -p python3 venv
 pip install -r requirements
 ```
 
-# Uso
+## Uso
 
 ```
 python calculadora.py
