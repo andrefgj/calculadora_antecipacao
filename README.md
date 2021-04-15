@@ -7,6 +7,7 @@
 ## Instalação
 
 ```
+pip3 install virtualenv
 virtualenv -p python3 venv
 pip3 install -r requirements.txt
 python setup sdist
