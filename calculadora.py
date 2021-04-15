@@ -44,8 +44,11 @@ for x in range(numero_de_parcelas):
     t.add_row([x+1, 30 * (x + 1), "%.2f" % round(valor_bruto_parcela, 2), "%.2f" % round((taxa_de_mdr), 2) + " %", "%.2f" % round((taxa_antecipacao * (x + 1)),2) + " %", "%.2f" % round(valor_deduzido, 2)])
     valor_total_antecipado = valor_total_antecipado + valor_deduzido
 
-print("\n")
-print(f"Para antecipação de R$ {'%.2f' % round(valor_da_venda)} em {numero_de_parcelas} vezes:\n" )
-print(t)
-print(f"\nValor total antecipado para o cenário é: R$ {'%.2f' % round(valor_total_antecipado, 2)}")
-print("\n")
+print(f"""
+Para antecipação de R$ {'%.2f' % round(valor_da_venda)} em {numero_de_parcelas} vezes:
+
+{t}
+
+Valor total antecipado para o cenário é: R$ {'%.2f' % round(valor_total_antecipado, 2)}
+
+""")
