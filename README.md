@@ -8,19 +8,20 @@
 
 ```
 virtualenv -p python3 venv
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+python setup sdist
 ```
 
 ## Uso
 
 ```
-python calculadora.py
+calcrec
 ```
 
 Exemplo:
 
 ```
-$ python calculadora.py 
+$ calcrec 
 Insira o valor da venda: 1000
 Insira o número de parcelas: 5
 Insira a taxa MDR: 1.59
