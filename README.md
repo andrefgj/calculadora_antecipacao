@@ -10,8 +10,7 @@
 git clone git@github.com:andrefgj/calculadora_antecipacao.git
 cd calculadora_antecipacao
 pip3 install -r requirements.txt
-python setup sdist
-pip3 install dist/calcrec*.tar.gz
+python setup install
 ```
 
 ## Uso
