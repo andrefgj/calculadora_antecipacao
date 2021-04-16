@@ -51,6 +51,8 @@ Para antecipação de R$ {'%.2f' % round(valor_da_venda)} em {numero_de_parcelas
 {t}
 
 Valor total antecipado para o cenário é: R$ {'%.2f' % round(valor_total_antecipado, 2)}
+          
+Valor total do desconto para o cenário é: R$ {'%.2f' % round(valor_da_venda - valor_total_antecipado, 2)}
 
 """)
 
