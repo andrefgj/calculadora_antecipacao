@@ -43,6 +43,8 @@ Para antecipação de R$ 1000.00 em 5 vezes:
 
 Valor total antecipado para o cenário é: R$ 937.16
 
+Valor total do desconto para o cenário é: R$ 62.84
+
 ```
 
 ## Referências
